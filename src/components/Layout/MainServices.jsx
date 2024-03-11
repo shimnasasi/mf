@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function MainServices() {
   return (
@@ -11,71 +12,80 @@ function MainServices() {
             <h1 className="capitalize text-2xl font-bold ">
               mechanical design
             </h1>
-            <ul className="pl-5">
-              <li>one</li>
-              <li>two</li>
-              <li>three</li>
-              <li>four</li>
-              <li>three</li>
-              <li>four</li>
+            <ul className="pl-5 flex flex-col gap-4">
+              <li>Jigs and Fixtures</li>
+              <li>Moulds</li>
+              <li>Product Design</li>
+              <li>Gauges</li>
+              <li>Electrode Design</li>
+              <li>Sheet metal</li>
             </ul>
-            <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
-              <FaArrowRightLong className="text-[#002060]" />
-            </button>
+            <Link to={"/Service/1"}>
+              <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
+                <FaArrowRightLong className="text-[#002060]" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" relative w-full bg-home-Services_two bg-cover bg-center ">
           <div className=" absolute w-full bg-[#595959]/60 flex gap-3 flex-col p-5 h-full  text-white">
             <h1 className="capitalize text-2xl font-bold ">
-              mechanical design
+              CNC Programming
             </h1>
-            <ul className="pl-5">
-              <li>one</li>
-              <li>two</li>
-              <li>three</li>
-              <li>four</li>
-              <li>three</li>
-              <li>four</li>
+            <ul className="pl-5 flex flex-col gap-4">
+              <li>Milling</li>
+              <li>Turning</li>
+              <li>CAM Sheet Generation</li>
+              <li>Prototype Support</li>
+              <li>CNC Process Planning</li>
+              <li>CNC Programming Optimization</li>
             </ul>
-            <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
-              <FaArrowRightLong className="text-[#595959]" />
-            </button>
+            <Link to={"/Service/2"}>
+              <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
+                <FaArrowRightLong className="text-[#595959]" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" relative w-full bg-home-Services_three bg-cover bg-center ">
           <div className=" absolute w-full bg-[#002060]/60 flex gap-3 flex-col p-5 h-full  text-white">
             <h1 className="capitalize text-2xl font-bold ">
-              mechanical design
+              Engineering Documentation
             </h1>
-            <ul className="pl-5">
-              <li>one</li>
-              <li>two</li>
-              <li>three</li>
-              <li>four</li>
-              <li>three</li>
-              <li>four</li>
+            <ul className="pl-5 flex flex-col gap-4">
+              <li>Work Instruction (WI)</li>
+              <li>Standard Operation Procedure (SOP)</li>
+              <li>Control Plan</li>
+              <li>Setup Approval Sheet</li>
+              <li>CAM Sheet</li>
+              <li>Inspection Plan / Inspection Report</li>
             </ul>
-            <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
-              <FaArrowRightLong className="text-[#002060]" />
-            </button>
+            <Link to={"/Service/3"}>
+              <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
+                <FaArrowRightLong className="text-[#002060]" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" relative w-full bg-home-Services_four bg-cover bg-center ">
           <div className=" absolute w-full bg-[#595959]/60 flex gap-3 flex-col p-5 h-full  text-white">
             <h1 className="capitalize text-2xl font-bold ">
-              mechanical design
+              Other Services
             </h1>
-            <ul className="pl-5">
-              <li>one</li>
-              <li>two</li>
-              <li>three</li>
-              <li>four</li>
-              <li>three</li>
-              <li>four</li>
+            <ul className="pl-5 flex flex-col gap-4">
+              <li>Mould Flow A nalysis</li>
+              <li>Part Costing</li>
+              <li>Fixture Costing</li>
+              <li>Prototype Manufacturing Support</li>
+              <li>IT Training</li>
+              
             </ul>
-            <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
-              <FaArrowRightLong className="text-[#595959]" />
-            </button>
+            <Link to={"/Service/4"}>
+              <button className="bg-white w-12 h-12 text-2xl flex justify-center items-center absolute bottom-2 right-2">
+                <FaArrowRightLong className="text-[#595959]" />
+              </button>
+            </Link>
+
           </div>
         </div>
       </div>

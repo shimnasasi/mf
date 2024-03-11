@@ -9,22 +9,15 @@ function MainHome() {
           <h1 className="text-5xl capitalize font-bold  drop-shadow-xl">
             the Art of Engineering<br />
           </h1>
-          <h1 className="capitalize text-xl">for everyone</h1>
+          {/* <h1 className="capitalize text-xl">for everyone</h1> */}
         </div>
         <p className="text-lg capitalize drop-shadow-xl  font-semibold ">
-          Mechfusion, your premier provider of Engineering services tailored to
-          meet your design and manufacturing needs. With years of expertise in
-          the industry, we pride ourselves on delivering innovative solutions
-          that streamline your production processes and bring your ideas to life
-          with precision and efficiency. Our dedicated team of skilled
-          professionals utilizes cutting-edge technology and software to deliver
-          high-quality designs, prototyping, and manufacturing services that
-          exceed expectations. We are committed to provide personalized
-          attention and customized solutions to help you achieve your goals.
+        Welcome to the world of artful engineering, where creativity meets precision, and innovation thrives on a foundation of technical excellence. At Mechfusion we believe that engineering is not just about solving problems, it's about crafting elegant solutions that seamlessly blend form and function. From conceptualization to realization, our team of dedicated engineers harnesses the power of imagination and expertise to turn ideas into reality. With a commitment to pushing boundaries and a passion for perfection, we strive to elevate every project into a masterpiece of modern engineering. Join us in redefining what it means to create, design, and build with artistry and ingenuity.
+
         </p>
-        <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
+        {/* <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
           Learn More <FaArrowRightLong className="text-lg pt-0.5" />
-        </button>
+        </button> */}
       </div>
     </div>
   );
