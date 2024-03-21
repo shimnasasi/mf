@@ -2,11 +2,15 @@ import mphoto from '../Assets/05.jpg'
 import mphoto1 from '../Assets/06.jpg'
 import mphoto2 from '../Assets/07.jpg'
 import mphoto3 from '../Assets/08.jpg'
+import cam from '../Assets/cam.jpeg'
+import design from '../Assets/design1.webp'
+import documentation from '../Assets/documentation.webp'
+import other from '../Assets/other.webp'
 export const serviceData = [
 
     {
         name: "Mechanical Design",
-        img1: mphoto,
+        img1: design,
         img2: mphoto1,
         img3: mphoto2,
         img4: mphoto3,
@@ -34,7 +38,7 @@ export const serviceData = [
     },
     {
         name: "CNC Programming",
-        img1: mphoto,
+        img1: cam,
         img2: mphoto1,
         img3: mphoto2,
         id: 2,
@@ -54,7 +58,7 @@ export const serviceData = [
     {
         name: "Engineering Documentation",
         id: 3,
-        img1: mphoto,
+        img1: documentation,
         img2: mphoto1,
         img3: mphoto2,
         services:[
@@ -77,7 +81,7 @@ export const serviceData = [
     {
         name: "Other Services",
         id: 4,
-        img1: mphoto,
+        img1: other,
         img2: mphoto,
         img3: mphoto,
         services:[

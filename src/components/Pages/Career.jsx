@@ -4,10 +4,11 @@ import Layout from '../Layout/Layout';
 function Career() {
     return (
         <Layout>
-            <div className='w-full h-64 bg-bannerbg px-32'>
+            <div className='w-full h-64 bg-bannerbg md:px-32'>
                 <h1 className="text-white mx-32 pt-24 text-5xl font-bold">Career</h1>
                 <h2 className='text-white mx-32 pt-2 '>Home/Career</h2>
             </div>
+
             {/* <div className='w-full h-[37rem] flex bg-white'>
                 <div className='w-[30rem] h-[32rem] ml-72 mt-10 bg-white'>
                     <h1 className="text-4xl font-bold capitalize text-[#595959] pl-8 pt-32">
@@ -19,48 +20,50 @@ function Career() {
                     <button className='mt-8 ml-8 border shadow h-10 w-52 font-bold'>View Job Opening</button>
                 </div>
                 <div className='bg-careerbg w-[30rem] h-[32rem] mt-10 bg-center bg-cover'></div>
-
-            </div> */}
-            <div className='w-full h-[70rem] bg-white '>
+                </div> */}
+            <div className='w-full  bg-white '>
                 <div className='flex'>
-                    <h1 className='text-3xl pl-[35rem] pt-16 font-bold text-[#002060] ' >Mech</h1>
-                    <h1 className='text-3xl pt-16 font-bold text-[#595959] ' >fusion  </h1>
-                    <h1 className='text-3xl pt-16 font-bold pl-3 text-[#002060] ' >Career </h1>
-                    <h1 className='text-3xl pt-16 font-bold pl-3 text-[#595959] ' >Opportunities</h1>
+                    <h1 className='invisible lg:visible md:flex  hidden text-3xl pl-[5rem] md:pl-[35rem] pt-16 font-bold text-[#002060] ' >Mech</h1>
+                    <h1 className='invisible lg:visible md:flex  hidden text-3xl pt-16 font-bold text-[#595959] ' >fusion  </h1>
+                    <h1 className='text-3xl pt-16 font-bold pl-8 md:pl-3 text-[#002060]  ' >Career Opportunities </h1>
+                    {/* <h1 className='text-3xl pt-16 font-bold pl-3 text-[#595959] ' >Opportunities</h1> */}
                 </div>
-                <p className='pl-[16rem] pt-8 pr-[15rem]'>Mechfusion, your premier provider of Engineering services tailored to meet your design and manufacturing needs. With years of expertise in the industry, we pride ourselves on delivering innovative solutions that streamline your production processes and bring your ideas to life with precision and efficiency. Our dedicated team of skilled professionals utilizes cutting-edge technology and software to deliver high-quality designs, prototyping, and manufacturing services that exceed expectations. We are committed to provide personalized attention and customized solutions to help you achieve your goals.
-                    <p className='font-bold pt-10'>Mechfusion, your premier provider of Engineering services tailored to meet your design and manufacturing needs. With years of expertise in the industry, we pride ourselves on delivering innovative solutions that streamline your production processes and bring your ideas to life with precision and efficiency.
-
-                    </p>
-                </p>
-                <div className='mt-12 ml-64 flex flex-col gap-10'>
-                    <div className='flex  gap-10'>
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='FirstName' />
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='LastName' />
-                    </div>
-                    <div className='flex  gap-10'>
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='Contact Number' />
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='Email Address' />
-                    </div>
-                    <div>
-                    <input type="text" className='w-[64.5rem] h-32 border pl-5 shadow' placeholder='Address' /> 
-                    </div>
-                    <div>
-                    <input type="text" className='w-[64.5rem] h-12 border pl-5 shadow' placeholder='Qulification' /> 
-                    </div>
-                    <div className='flex  gap-10'>
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='City' />
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='Pincode' />
-                    </div>
-                    <div className='flex  gap-10'>
-                        
-                        <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='Country' />
-                        <input type="file" className='w-[31rem] h-12 border pl-5 shadow' placeholder='FullName' />
-                    </div>
-                    <button className='w-56 h-12 bg-[#002060] text-white'>
-            send
-          </button>
+                <p className='px-8 md:px-64  pt-8 text-lg '>Mechfusion seeks highly talented and hardworking
+                 individuals with a passion for developing their careers and the desire to </p>
+                <p className='md:px-64 text-lg flex justify-center  '>excel in the information technology industry.</p> 
+                  
+                  
+                  <p className='px-8 md:px-64 pt-10 text-lg'>We offer a creative collaborative & challenging environment 
+                and we are committed to diversity and professional development</p>  
+                
                     
+                    <p className='font-bold pt-10 px-8 md:px-64 flex flex-col justify-center text-lg'>
+                    If you are interested in current or future career opportunities with Mechfusion, please complete the form below and 
+                    </p> 
+                     <p className='px-8 md:px-64 text-lg flex md:justify-center font-bold '> submit your resume. </p>
+               
+                <div className='mt-12 ml-8 md:ml-64 flex flex-col gap-5 md:gap-10'>
+                    <div className='md:flex  gap-10'>
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow' placeholder='FirstName' />
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow mt-5 md:mt-0' placeholder='LastName' />
+                    </div>
+                    <div className='md:flex  gap-10'>
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow' placeholder='Contact Number' />
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow mt-5 md:mt-0' placeholder='Email Address' />
+                    </div>
+                    <div className='md:flex  gap-10'>
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow' placeholder='Qualification' />
+                        <input type="text" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow mt-5 md:mt-0' placeholder='Position Applied For' />
+                    </div>
+                    <div className='flex  gap-10'>
+                        <input type="file" className='w-[23rem] md:w-[31rem] h-12 border pl-5 shadow' />
+                        {/* <input type="text" className='w-[31rem] h-12 border pl-5 shadow' placeholder='Position Applied For' /> */}
+                    </div>
+                    
+                    <button className='w-56 h-12 bg-[#002060] text-white'>
+                        Apply
+                    </button>
+
                 </div>
             </div>
         </Layout >
