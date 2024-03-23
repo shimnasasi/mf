@@ -22,8 +22,8 @@ function Footer() {
           E n g i n e e r i n g S o l u t i o n s
         </h1>
         <h1>
-          Santhosh nagar <br />
-          Attur layout <br />
+          {/* Santhosh nagar <br /> */}
+          {/* Attur layout <br /> */}
           Yelahanka Newtown
           <br />
           Bangalore <br />

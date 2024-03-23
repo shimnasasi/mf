@@ -8,7 +8,7 @@ function Service() {
         <Layout>
             <div className='w-full h-64 bg-bannerbg px-5  md:px-32'>
                 <h1 className="text-white md:mx-32 pt-24 text-5xl font-bold">Services</h1>
-                <h5 className='text-white mx-32 pt-2'>Home/Services</h5>
+                <h5 className='text-white md:mx-32 pt-2'>Home/Services</h5>
                 {/* <div className='w-64 h-2 ml-[60rem] mt-[4rem] bg-[#002060]'></div> */}
                 {/* <div className='h-20 w-64 border border-[#e1e1e1] shadow bg-white ml-[60rem] '>
                     <h6 className='ml-16 mt-3'>Call Us Today</h6>

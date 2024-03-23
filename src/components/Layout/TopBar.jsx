@@ -49,16 +49,16 @@ const TopBar = () => {
       {!chatvisibility ? (
         <div className="fixed top-16 right-2 z-50">
           <div
-            className="w-72  md:w-96 h-[80vh] overflow-clip
+            className="w-72  md:w-72 h-[70vh] overflow-clip
         flex flex-col items-center  border-2 shadow-lg
          bg-white "
           >
             <div className="bg-[#002060] w-full items-center flex flex-col text-right ">
               <div>
-                <h1 className="cursor-pointer text-white text-5xl font-bold ">
+                <h1 className="cursor-pointer text-white text-4xl font-bold ">
                   Mech<span className="text-[#595959]">fusion</span>
                 </h1>
-                <h1 className="text-[.60rem] uppercase   text-[#595959] ">
+                <h1 className="text-[.47rem] uppercase   text-[#595959] ">
                   E n g i n e e r i n g S o l u t i o n s
                 </h1>
               </div>
@@ -76,8 +76,8 @@ const TopBar = () => {
               rows="10"
               placeholder="Message"
             ></textarea>
-            <button className='w-56 h-12 bg-[#002060] text-white'>
-            send
+            <button className='w-32 h-8 bg-[#002060] text-white ml-8'>
+            Send
             </button>
             </form>
           </div>
