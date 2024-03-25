@@ -7,7 +7,7 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 
 function Footer() {
   return (
-    <div className="flex  w-full  h-80 bg-[#002060] text-white mt-10">
+    <div className="flex  w-full  h-80 bg-[#002060] text-white mt-5 md:mt-10">
       <div className=" pl-0 md:pl-32 flex w-full md:w-1/3 h-full 
       flex-col justify-center items-center md:items-start ">
         <Link className="/">
@@ -18,9 +18,14 @@ function Footer() {
             </h1>
           </div>
         </Link>
-        <h1 className="text-[.60rem] uppercase text-[#595959] pl-24">
-          E n g i n e e r i n g S o l u t i o n s
+        <div className="flex">
+        <h1 className="text-[.60rem] uppercase text-[#595959] pl-24 pr-2">
+          E n g i n e e r i n g 
         </h1>
+        <h1 className="text-[.60rem] uppercase text-[#595959]">
+           S o l u t i o n s
+        </h1>
+        </div>
         <h1>
           {/* Santhosh nagar <br /> */}
           {/* Attur layout <br /> */}
@@ -78,7 +83,7 @@ function Footer() {
             </li>
             <li>
               {/* <IoLogoWhatsapp /> */}
-             <a href="https://wa.me/+919904130316/?text=its me abhilash">
+             <a href="https://wa.me/+918138923143/?text=">
                 <IoLogoWhatsapp className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
                </a> 
 
@@ -87,7 +92,9 @@ function Footer() {
               <FaLinkedin className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
             </li>
             <li>
+            <a href="https://www.instagram.com/mechfusion_/">
               <PiInstagramLogoFill className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a> 
             </li>
           </ul>
         </div>

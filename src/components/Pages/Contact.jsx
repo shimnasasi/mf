@@ -54,7 +54,10 @@ const Contact = () => {
                 <h1 className='text-[#595959] font-bold text-5xl'>fusion</h1>
                 {/* </h1> */}
               </div>
-              <h1 className="text-[.60rem] text-[#494949]  pl-32 uppercase">E n g i n e e r i n g  S o l u t i o n s</h1>
+              <div className='flex'>
+              <h1 className="text-[.60rem] text-[#494949]  pl-32 pr-2 uppercase">E n g i n e e r i n g  </h1>
+              <h1 className="text-[.60rem] text-[#494949]   uppercase">  S o l u t i o n s</h1>
+              </div>
               <h1 className='flex flex-col gap-7 pt-5 pl-8'>
                 {/* Santhosh nagar <br /> */}
                 {/* Attur layout <br /> */}
@@ -64,7 +67,7 @@ const Contact = () => {
               </h1>
             </div>
 
-            <iframe className=' w-[21rem] md:w-[25rem] h-[10rem] mt-10 ml-12 md:ml-0 ' src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9344122337816!2d77.56663177460582!3d13.103341511977225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19da06202f0f%3A0xf4ec8ed295f83a94!2sSuvilla%20residency!5e0!3m2!1sen!2sin!4v1708938681579!5m2!1sen!2sin"
+            <iframe className=' w-[22rem] md:w-[25rem] h-[10rem] mt-10 ml-[2.5rem] md:ml-0 ' src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.9344122337816!2d77.56663177460582!3d13.103341511977225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19da06202f0f%3A0xf4ec8ed295f83a94!2sSuvilla%20residency!5e0!3m2!1sen!2sin!4v1708938681579!5m2!1sen!2sin"
             ></iframe>
 
           </div>

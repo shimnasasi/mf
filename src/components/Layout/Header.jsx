@@ -12,9 +12,14 @@ function Header() {
           <h1 className="cursor-pointer text-5xl font-bold ">
             Mech<span className="text-[#595959]">fusion</span>
           </h1>
-          <h1 className="text-[.60rem] uppercase text-right  text-[#595959] pr-2">
-            E n g i n e e r i n g S o l u t i o n s
+          <div className="flex">
+          <h1 className="text-[.60rem] uppercase text-right  text-[#595959] pl-24 pr-2">
+            E n g i n e e r i n g 
           </h1>
+          <h1 className="text-[.60rem] uppercase text-right  text-[#595959]">
+             S o l u t i o n s
+          </h1>
+          </div>
         </Link>
       </div>
       <ul className="md:flex hidden capitalize   font-semibold  md:gap-9">

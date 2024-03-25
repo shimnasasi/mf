@@ -100,7 +100,7 @@ function Service() {
                     <div className='w-96 md:w-[30rem] h-80 bg-[#002060] '>
                         <h1 className='text-3xl text-white mt-5 md:mt-10 ml-16 font-bold'>Other Services</h1>
                         <ul className='text-white ml-16 mt-5'>
-                            <li>Mould Flow A nalysis</li>
+                            <li>Mould Flow Analysis</li>
                             <li>Part Costing</li>
                             <li>Fixture Costing</li>
                             <li>Prototype Manufacturing Support</li>

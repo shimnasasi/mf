@@ -41,12 +41,15 @@ const TopBar = () => {
     md:justify-end
      "
       >
-        <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        <a href="https://www.instagram.com/mechfusion_/">
+        
+         <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+         </a>
         <a href="https://www.facebook.com/MechfusionEnggineeringSolutions">
         <FaFacebook className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
         {/* <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" /> */}
-        <a href="https://wa.me/+919562465095/?text=let me know more about mechfusion">
+        <a href="https://wa.me/+918138923143/?text=let me know more about mechfusion">
           <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
         <FaLinkedin className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
@@ -63,9 +66,14 @@ const TopBar = () => {
                 <h1 className="cursor-pointer text-white text-4xl font-bold ">
                   Mech<span className="text-[#595959]">fusion</span>
                 </h1>
-                <h1 className="text-[.47rem] uppercase   text-[#595959] ">
-                  E n g i n e e r i n g S o l u t i o n s
+                <div className="flex">
+                <h1 className="text-[.46rem] uppercase pl-20   text-[#595959] ">
+                  E n g i n e e r i n g 
                 </h1>
+                <h1 className="text-[.46rem] uppercase   text-[#595959] pl-2 ">
+                  S o l u t i o n s
+                </h1>
+                </div>
               </div>
             </div>
             <form ref={form} onSubmit={sendEmail} className='h-[80vh] flex flex-col gap-5 mt-5'>

@@ -7,7 +7,7 @@ function MFsingleService({ value, details, services, image3, image2, image1 }) {
   return (
     <>
       <div className="w-full h-64 bg-bannerbg md:px-32">
-        <h1 className="text-white px-10 md:px-32 pt-24 text-4xl font-bold">
+        <h1 className="text-white px-10 md:px-32 pt-24 text-5xl font-bold">
           Service
         </h1>
         <h2 className="text-white mx-32 pt-2 ">Home/Service</h2>
