@@ -44,17 +44,17 @@ function MainHome() {
           engineering. Join us in redefining what it means to create, design,
           and build with artistry and ingenuity. */}
         </p>
-        {/* <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
-          Learn More <FaArrowRightLong className="text-lg pt-0.5" />
-        </button> */}
-        <Link to={"/Service"}>
+        <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
+          Show More <FaArrowRightLong className="text-lg pt-0.5" />
+        </button>
+        {/* <Link to={"/Service"}>
           <button
             className=" w-52 h-10 font-bold   text-white
                          border border-[#002060]"
           >
             Show more
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ function Header() {
       <h1 className="text-2xl md:hidden" onClick={() => { setView(!view) }}><FaBars /></h1>
       {
         view ? (<ul className="flex flex-col md:hidden  
-        bg-[#002060] absolute left-0 right-0 text-center top-20 
+        bg-[#002060] absolute z-50 left-0 right-0 text-center top-20 
        capitalize   font-semibold  gap-9 py-5">
           <Link to={"/"}>
             <li className="cursor-pointer text-white hover:text-[#595959]">

@@ -15,7 +15,7 @@ function Homeservice() {
                 <h1 className="text-4xl font-bold text-[#002060] pl-3">Services</h1>
             </div>
             <div className='flex md:flex-row flex-col gap-5'>
-                <div className='w-80 h-80 relative bg-blue-900/20  cursor-pointer   flex  flex-col  justify-center items-center'>
+                <div className='w-80 h-80 relative bg-[#002060]  cursor-pointer   flex  flex-col  justify-center items-center'>
                     <div className="absolute top-0 bg-white w-80 duration-1000 flex justify-center flex-col  items-center  hover:hidden h-80">
                         <img src={design} className='w-36 rounded-full' alt="" />
                         <h1 className='font-bold text-2xl'>Mechanical Design</h1>
@@ -30,7 +30,7 @@ function Homeservice() {
                     </ul>
                     <div className='absolute top-0 80 h-80 bg-blue-950' />
                 </div>
-                <div className='w-80 h-80 relative bg-blue-900/50  cursor-pointer   flex  flex-col  justify-center items-center'>
+                <div className='w-80 h-80 relative bg-[#002060]  cursor-pointer   flex  flex-col  justify-center items-center'>
                     <div className="absolute top-0 bg-white w-80 duration-1000 flex justify-center flex-col  items-center  hover:hidden h-80">
                         <img src={cam} className='w-36 rounded-full' alt="" />
                         <h1 className='font-bold text-2xl'>CNC Programming</h1>
@@ -45,7 +45,7 @@ function Homeservice() {
                     </ul>
                     <div className='absolute top-0 80 h-80 bg-blue-950' />
                 </div>
-                <div className='w-80 h-80 relative bg-blue-900/20  cursor-pointer   flex  flex-col  justify-center items-center'>
+                <div className='w-80 h-80 relative bg-[#002060]  cursor-pointer   flex  flex-col  justify-center items-center'>
                     <div className="absolute top-0 bg-white w-80 duration-1000 flex justify-center flex-col  items-center  hover:hidden h-80">
                         <img src={documentation} className='w-36 rounded-full' alt="" />
                         <h1 className='font-bold text-2xl'>Engineering Documentation</h1>
@@ -60,7 +60,7 @@ function Homeservice() {
                     </ul>
                     <div className='absolute top-0 80 h-80 bg-blue-950' />
                 </div>
-                <div className='w-80 h-80 relative bg-blue-900/50  cursor-pointer   flex  flex-col  justify-center items-center'>
+                <div className='w-80 h-80 relative bg-[#002060]  cursor-pointer   flex  flex-col  justify-center items-center'>
                     <div className="absolute top-0 bg-white w-80 duration-1000 flex justify-center flex-col  items-center  hover:hidden h-80">
                         <img src={other} className='w-36 rounded-full' alt="" />
                         <h1 className='font-bold text-2xl'>Others</h1>

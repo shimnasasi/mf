@@ -11,7 +11,7 @@ function About() {
   return (
     <Layout>
       <div className="w-full h-64 bg-bannerbg px-5 md:px-32">
-        <h1 className="text-white md:mx-32 pt-24 text-4xl font-bold">
+        <h1 className="text-white md:mx-32 pt-24 text-5xl font-bold">
           About us
         </h1>
         <h2 className="text-white md:mx-32 pt-2 ">Home/About us</h2>
