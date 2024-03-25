@@ -21,7 +21,7 @@ const Contact = () => {
         },
       );
       e.target.reset()
-  };;
+  };
   return (
     <Layout>
       <div className='w-full h-64 bg-bannerbg md:px-32'>

@@ -72,16 +72,22 @@ function Footer() {
           <h1 className="flex text-xl pl-8 ">FOLLOW US</h1>
           <ul className="flex text-bold text-3xl gap-5 pt-5">
             <li>
-              <FaFacebook />
+            <a href="https://www.facebook.com/MechfusionEnggineeringSolutions">
+              <FaFacebook className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a> 
             </li>
             <li>
-              <IoLogoWhatsapp />
+              {/* <IoLogoWhatsapp /> */}
+             <a href="https://wa.me/+919904130316/?text=its me abhilash">
+                <IoLogoWhatsapp className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+               </a> 
+
             </li>
             <li>
-              <FaLinkedin />
+              <FaLinkedin className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
             </li>
             <li>
-              <PiInstagramLogoFill />
+              <PiInstagramLogoFill className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
             </li>
           </ul>
         </div>
@@ -90,4 +96,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer;

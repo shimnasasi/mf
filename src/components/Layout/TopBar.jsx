@@ -42,9 +42,11 @@ const TopBar = () => {
      "
       >
         <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        <a href="https://www.facebook.com/MechfusionEnggineeringSolutions">
         <FaFacebook className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        </a>
         {/* <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" /> */}
-        <a href="https://wa.me/+919904130316/?text=its me abhilash">
+        <a href="https://wa.me/+919562465095/?text=let me know more about mechfusion">
           <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
         <FaLinkedin className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
