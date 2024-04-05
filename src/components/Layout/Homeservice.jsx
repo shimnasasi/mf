@@ -66,7 +66,7 @@ function Homeservice() {
                         <h1 className='font-bold text-2xl'>Others</h1>
                     </div>
                     <ul className='text-white flex flex-col gap-3'>
-                        <li>Mould Flow A nalysis</li>
+                        <li>Mould Flow Analysis</li>
                         <li>Part Costing</li>
                         <li>Fixture Costing</li>
                         <li>Prototype Manufacturing Support</li>

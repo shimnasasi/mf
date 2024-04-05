@@ -73,7 +73,7 @@ function MainServices() {
               Other Services
             </h1>
             <ul className="pl-5 flex flex-col gap-4">
-              <li>Mould Flow A nalysis</li>
+              <li>Mould Flow Analysis</li>
               <li>Part Costing</li>
               <li>Fixture Costing</li>
               <li>Prototype Manufacturing Support</li>

@@ -77,7 +77,7 @@ function Footer() {
           <h1 className="flex text-xl pl-8 ">FOLLOW US</h1>
           <ul className="flex text-bold text-3xl gap-5 pt-5">
             <li>
-            <a href="https://www.facebook.com/MechfusionEnggineeringSolutions">
+            <a href="https://www.facebook.com/MechfusionEngineeringSolutions">
               <FaFacebook className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
               </a> 
             </li>
@@ -89,7 +89,9 @@ function Footer() {
 
             </li>
             <li>
+            <a href="https://www.linkedin.com/company/mechfusion/">
               <FaLinkedin className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a>
             </li>
             <li>
             <a href="https://www.instagram.com/mechfusion_/">

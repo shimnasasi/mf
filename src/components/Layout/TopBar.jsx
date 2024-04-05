@@ -45,19 +45,22 @@ const TopBar = () => {
         
          <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
          </a>
-        <a href="https://www.facebook.com/MechfusionEnggineeringSolutions">
+        <a href="https://www.facebook.com/MechfusionEngineeringSolutions">
         <FaFacebook className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
         {/* <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" /> */}
         <a href="https://wa.me/+918138923143/?text=let me know more about mechfusion">
           <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
+
+        <a href="https://www.linkedin.com/company/mechfusion/">
         <FaLinkedin className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        </a>
       </div>
       {!chatvisibility ? (
         <div className="fixed top-16 right-2 z-50">
           <div
-            className="w-72  md:w-72 h-[70vh] overflow-clip
+            className="w-72  md:w-72 h-[77vh] overflow-clip
         flex flex-col items-center  border-2 shadow-lg
          bg-white "
           >
@@ -76,11 +79,12 @@ const TopBar = () => {
                 </div>
               </div>
             </div>
-            <form ref={form} onSubmit={sendEmail} className='h-[80vh] flex flex-col gap-5 mt-5'>
+            <form ref={form} onSubmit={sendEmail} className='h-[120vh] flex flex-col gap-5 mt-5'>
             {/* <label htmlFor="">Name</label> */}
-            <input type="text" className="border h-10 pl-2" name="user_name"placeholder="Enter Your Name" id="" />
+            <input type="text" className="border h-8 pl-2" name="user_name"placeholder="Enter Your Name" id="" />
             {/* <label htmlFor="">Email</label> */}
-            <input type="email" className="border h-10 pl-2" name="user_email"placeholder="Enter your Email" id="" />
+            <input type="email" className="border h-8 pl-2" name="user_email"placeholder="Enter your Email" id="" />
+            <input type="text" className="border h-8 pl-2" name="user_no"placeholder=" Phone Number" id="" />
             <textarea
               name="message"
               className="border pl-2"
