@@ -1,6 +1,4 @@
 import React from "react";
-import { FaArrowRightLong, FaMaskFace } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 function MainAbout() {
   return (
@@ -24,11 +22,6 @@ function MainAbout() {
           We deliver professional services including full range of Mechanical
           CAD/CAM services, Engineering documentation, Costing, etc.
         </p>
-        {/* <Link to={"/About"}>
-        <button className="text-white flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
-          Learn More <FaArrowRightLong className="text-lg pt-0.5" />
-        </button>
-        </Link> */}
       </div>
       <div className="w-full h-[40rem] mt-10 bg-[#595959]/10 relative ">
         <div className="absolute top-60 z-20 left-8 w-72 h-[22rem] shadow-xl bg-white flex justify-center items-center">
@@ -42,4 +35,4 @@ function MainAbout() {
   );
 }
 
-export default MainAbout;
+export default MainAbout;

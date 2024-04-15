@@ -6,7 +6,6 @@ import Service from "./components/Pages/Service";
 import Singleservice from "./components/Pages/Singleservice";
 import About from "./components/Pages/About";
 import Career from "./components/Pages/Career";
-import Slider from "./components/Pages/Slider";
 
 function App() {
   return (
@@ -15,13 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Service" element={<Service />}/>
-          <Route path="/Service/:id" element={<Singleservice/>}/>
-          <Route path="/About" element={<About />}/>
-          <Route path="/Career" element={<Career />}/>
-          <Route path="/Slider" element={<Slider />}/>
-          
-          
+          <Route path="/Service" element={<Service />} />
+          <Route path="/Service/:id" element={<Singleservice />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Career" element={<Career />} />
         </Routes>
       </BrowserRouter>
     </div>

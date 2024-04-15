@@ -15,17 +15,15 @@ function MainHome() {
         flex flex-col justify-center md:items-start items-center
           gap-8 bg-[#595959]/50 text-white"
       >
-        {/* <div className=" "> */}
+
         <h1
           className="text-4xl w-52 md:w-full  md:text-5xl    md:text-start   text-center 
          capitalize font-bold  drop-shadow-xl"
         >
           the Art of Engineering
-          <br /> 
+          <br />
         </h1>
-        {/* <button className="">more</button> */}
 
-        {/* </div> */}
         <p
           className=" md:w-full hidden
            md:flex text-justify text-lg capitalize
@@ -38,26 +36,17 @@ function MainHome() {
           seamlessly blend form and function. From conceptualization to
           realization, our team of dedicated engineers harnesses the power of
           imagination and expertise to turn ideas into reality.
-          {/* With a
-          commitment to pushing boundaries and a passion for perfection, we
-          strive to elevate every project into a masterpiece of modern
-          engineering. Join us in redefining what it means to create, design,
-          and build with artistry and ingenuity. */}
+
         </p>
-        <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
-          Show More <FaArrowRightLong className="text-lg pt-0.5" />
-        </button>
-        {/* <Link to={"/Service"}>
-          <button
-            className=" w-52 h-10 font-bold   text-white
-                         border border-[#002060]"
-          >
-            Show more
+        <Link to={"/Service"}>
+          <button className="flex justify-center items-center gap-2  h-14 w-48 font-semibold text-xl bg-[#002060] hover:bg-[#002050]">
+            Show More <FaArrowRightLong className="text-lg pt-0.5" />
           </button>
-        </Link> */}
+        </Link>
+
       </div>
     </div>
   );
 }
 
-export default MainHome;
+export default MainHome;

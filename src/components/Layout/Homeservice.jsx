@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import serv1 from '../../Assets/01.jpg'
 import cam from '../../Assets/cam.jpeg'
 import design from '../../Assets/design1.webp'
 import documentation from '../../Assets/documentation.webp'
