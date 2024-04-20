@@ -19,18 +19,15 @@ function Footer() {
           </div>
         </Link>
         <div className="flex">
-        <h1 className="text-[.60rem] uppercase text-[#595959] pl-24 pr-2">
-          E n g i n e e r i n g 
-        </h1>
-        <h1 className="text-[.60rem] uppercase text-[#595959]">
-           S o l u t i o n s
-        </h1>
+          <h1 className="text-[.60rem] uppercase text-[#595959] pl-24 pr-2">
+            E n g i n e e r i n g
+          </h1>
+          <h1 className="text-[.60rem] uppercase text-[#595959]">
+            S o l u t i o n s
+          </h1>
         </div>
         <h1>
-          {/* Santhosh nagar <br /> */}
-          {/* Attur layout <br /> */}
-          Yelahanka Newtown
-          <br />
+          Yelahanka Newtown<br />
           Bangalore <br />
           Karnataka India – 560064
         </h1>
@@ -56,6 +53,7 @@ function Footer() {
             <li>Contact Us</li>{" "}
           </Link>
         </ul>
+        
         <ul className="flex flex-col gap-4">
           <li className="text-bold text-2xl">Services</li>
           <Link to={"/Service/1"}>
@@ -76,28 +74,31 @@ function Footer() {
         <div>
           <h1 className="flex text-xl pl-8 ">FOLLOW US</h1>
           <ul className="flex text-bold text-3xl gap-5 pt-5">
+            
             <li>
-            <a href="https://www.facebook.com/MechfusionEngineeringSolutions">
-              <FaFacebook className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
-              </a> 
-            </li>
-            <li>
-              {/* <IoLogoWhatsapp /> */}
-             <a href="https://wa.me/+918138923143/?text=">
-                <IoLogoWhatsapp className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
-               </a> 
-
-            </li>
-            <li>
-            <a href="https://www.linkedin.com/company/mechfusion/">
-              <FaLinkedin className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              <a href="https://www.facebook.com/MechfusionEngineeringSolutions">
+                <FaFacebook className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
               </a>
             </li>
+            
             <li>
-            <a href="https://www.instagram.com/mechfusion_/">
-              <PiInstagramLogoFill className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
-              </a> 
+              <a href="https://wa.me/+918138923143/?text=">
+                <IoLogoWhatsapp className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a>
             </li>
+            
+            <li>
+              <a href="https://www.linkedin.com/company/mechfusion/">
+                <FaLinkedin className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a>
+            </li>
+           
+            <li>
+              <a href="https://www.instagram.com/mechfusion_/">
+                <PiInstagramLogoFill className="hover:scale-110  border-[#002060] cursor-pointer  hover:text-[#002060]" />
+              </a>
+            </li>
+          
           </ul>
         </div>
       </div>

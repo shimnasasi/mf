@@ -32,6 +32,7 @@ function About() {
             CAD/CAM services, Engineering documentation, Costing, etc.
           </p>
         </div>
+        
         <div className="w-full h-full flex  flex-col justify-center gap-3 text-justify p-9">
           <div className="md:w-96 h-[27rem] md:h-[30rem] bg-[#595959]/10 relative ">
             <div className="hover:scale-105 duration-500 cursor-pointer absolute md:top-48 top-36 z-20 md:left-12 left-8 w-48 h-64 shadow-xl bg-white flex justify-center items-center">

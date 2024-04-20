@@ -1,33 +1,30 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
-import emailjs from '@emailjs/browser';
 
 const TopBar = () => {
   const [chatvisibility, setChatvisibility] = useState(true);
-  const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm('service_1rf5shs', 'template_27c7zyq', form.current, {
-        publicKey: 'Qp9yFD-SUsIV9F74E',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+   
+    const requestOptions = {
+      method: "POST",
+      body: new FormData(e.target)
+    };
+    fetch("https://mechfusion.in/api/contact-us.php", requestOptions)
+      .then((response) => console.log(response))
+      .then((result) => console.log(result))
+      .catch((error) => console.error(error));
+   
     e.target.reset()
-  };;
+  };
+    
+
   return (
     <div>
       <div
@@ -41,21 +38,20 @@ const TopBar = () => {
     md:justify-end
      "
       >
-        <a href="
-        https://www.instagram.com/mechfusion_/">
-
-          <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
-        </a>
+        <a href="https://www.instagram.com/mechfusion_/">
+        
+         <FaInstagram className="  hover:p-1 hover:scale-110 border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+         </a>
         <a href="https://www.facebook.com/MechfusionEngineeringSolutions">
-          <FaFacebook className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        <FaFacebook className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
-
+        {/* <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" /> */}
         <a href="https://wa.me/+918138923143/?text=let me know more about mechfusion">
           <FaWhatsapp className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
 
         <a href="https://www.linkedin.com/company/mechfusion/">
-          <FaLinkedin className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
+        <FaLinkedin className="  hover:p-1 hover:scale-110  border-[#002060] cursor-pointer p-[0.15rem]  hover:text-[#002060]" />
         </a>
       </div>
       {!chatvisibility ? (
@@ -71,30 +67,32 @@ const TopBar = () => {
                   Mech<span className="text-[#595959]">fusion</span>
                 </h1>
                 <div className="flex">
-                  <h1 className="text-[.46rem] uppercase pl-20   text-[#595959] ">
-                    E n g i n e e r i n g
-                  </h1>
-                  <h1 className="text-[.46rem] uppercase   text-[#595959] pl-2 ">
-                    S o l u t i o n s
-                  </h1>
+                <h1 className="text-[.46rem] uppercase pl-20   text-[#595959] ">
+                  E n g i n e e r i n g 
+                </h1>
+                <h1 className="text-[.46rem] uppercase   text-[#595959] pl-2 ">
+                  S o l u t i o n s
+                </h1>
                 </div>
               </div>
             </div>
-            <form ref={form} onSubmit={sendEmail} className='h-[120vh] flex flex-col gap-5 mt-5'>
-              <input type="text" className="border h-8 pl-2" name="user_name" placeholder="Enter Your Name" id="" />
-              <input type="email" className="border h-8 pl-2" name="user_email" placeholder="Enter your Email" id="" />
-              <input type="text" className="border h-8 pl-2" name="user_number" placeholder=" Phone Number" id="" />
-              <textarea
-                name="message"
-                className="border pl-2"
-                id=""
-                cols="20"
-                rows="10"
-                placeholder="Message"
-              ></textarea>
-              <button className='w-32 h-8 bg-[#002060] text-white ml-8'>
-                Send
-              </button>
+            <form onSubmit={sendEmail} className='h-[120vh] flex flex-col gap-5 mt-5'>
+            {/* <label htmlFor="">Name</label> */}
+            <input type="text" className="border h-8 pl-2" name="user_name" placeholder="Enter Your Name" id="" />
+            {/* <label htmlFor="">Email</label> */}
+            <input type="email" className="border h-8 pl-2" name="user_email" placeholder="Enter your Email" id="" />
+            <input type="text" className="border h-8 pl-2" name="user_number" placeholder=" Phone Number" id="" />
+            <textarea
+              name="message"
+              className="border pl-2"
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button className='w-32 h-8 bg-[#002060] text-white ml-8'>
+            Send
+            </button>
             </form>
           </div>
         </div>

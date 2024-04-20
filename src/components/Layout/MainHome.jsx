@@ -7,28 +7,24 @@ function MainHome() {
     <div
       className="w-full h-80 md:h-[100vh]  relative px-0 md:px-32
      bg-home-Services_four bg-center bg-cover flex justify-center
-      md:justify-start items-center "
-    >
+      md:justify-start items-center ">
       <div
         className="shadow-2lg shadow-[#595959] absolute md:top-16  
-       md:p-10 w-full h-80  md:h-[65%] md:w-[50%]
-        flex flex-col justify-center md:items-start items-center
-          gap-8 bg-[#595959]/50 text-white"
-      >
+          md:p-10 w-full h-80  md:h-[65%] md:w-[50%]
+          flex flex-col justify-center md:items-start items-center
+          gap-8 bg-[#595959]/50 text-white">
 
         <h1
           className="text-4xl w-52 md:w-full  md:text-5xl    md:text-start   text-center 
-         capitalize font-bold  drop-shadow-xl"
-        >
-          the Art of Engineering
-          <br />
+            capitalize font-bold  drop-shadow-xl">
+            the Art of Engineering
+            <br />
         </h1>
 
         <p
           className=" md:w-full hidden
            md:flex text-justify text-lg capitalize
-            drop-shadow-xl  font-semibold "
-        >
+            drop-shadow-xl  font-semibold ">
           Welcome to the world of artful engineering, where creativity meets
           precision, and innovation thrives on a foundation of technical
           excellence. At Mechfusion we believe that engineering is not just

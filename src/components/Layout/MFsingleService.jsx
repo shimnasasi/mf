@@ -8,7 +8,7 @@ function MFsingleService({ value, details, services, image3, image2, image1 }) {
           Service
         </h1>
         <h2 className="text-white mx-32 pt-2 ">Home/Service</h2>
-        {/* <h2 className="text-white px-32 pt-2 text-xl"></h2> */}
+        
       </div>
       <div className="w-full  bg-white">
         <div className=" flex md:px-64 justify-center items-center  gap-5 pt-10">
@@ -16,13 +16,14 @@ function MFsingleService({ value, details, services, image3, image2, image1 }) {
             <h1 className=" text-3xl font-bold text-[#002060] ">{value}</h1>
             <p className=" text-justify md:pr-8 justify-center">{details}</p>
           </div>
+
           <img
             src={image1}
             alt=""
             className="hidden md:flex shadow-lg shadow-slate-400 hover:scale-105 duration-1000 w-72 h-72 
-             bg-home-Services_one bg-center bg-cover ml-10"
-          />
-        </div>
+             bg-home-Services_one bg-center bg-cover ml-10"/>
+             </div>
+
         <h1 className="text-3xl font-bold px-40 md:px-64 mt-10 text-[#002060]">
           {" "}
           Services
@@ -43,6 +44,7 @@ function MFsingleService({ value, details, services, image3, image2, image1 }) {
             </div>
           ))}
         </div>
+
       </div>
     </>
   );

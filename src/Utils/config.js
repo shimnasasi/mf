@@ -85,7 +85,7 @@ export const serviceData = [
         img2: mphoto,
         img3: mphoto,
         services:[
-            {service:"Mould Flow A nalysis"},
+            {service:"Mould Flow Analysis"},
             {service:"Part Costing"},
             {service:"Fixture Costing"},
             {service:"Prototype Manufacturing Support"},
